@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 	s.version = '1.0'
 	s.requires_arc = true
 	s.author = {
-		'Ben' => 'ben02060846@gmail.com'
+		'Zhuoqian Zhou' => 'ben02060846@gmail.com'
 	}
 	s.ios.deployment_target = '5.0'
 	s.summary = 'ExtendNSLog'
