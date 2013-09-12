@@ -16,6 +16,7 @@
 		2D13A3E017E16A0600C89D58 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D13A3DF17E16A0600C89D58 /* Default.png */; };
 		2D13A3E217E16A0600C89D58 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D13A3E117E16A0600C89D58 /* Default@2x.png */; };
 		2D13A3E417E16A0600C89D58 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D13A3E317E16A0600C89D58 /* Default-568h@2x.png */; };
+		2D7E7E2F17E16BF70047F17A /* ExtendNSLogFunctionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E7E2E17E16BF70047F17A /* ExtendNSLogFunctionality.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		2D13A3DF17E16A0600C89D58 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2D13A3E117E16A0600C89D58 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2D13A3E317E16A0600C89D58 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2D7E7E2D17E16BF70047F17A /* ExtendNSLogFunctionality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtendNSLogFunctionality.h; sourceTree = "<group>"; };
+		2D7E7E2E17E16BF70047F17A /* ExtendNSLogFunctionality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtendNSLogFunctionality.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,7 @@
 		2D13A3D317E16A0600C89D58 /* ExtendNSLog */ = {
 			isa = PBXGroup;
 			children = (
+				2D7E7E2C17E16BF70047F17A /* Classes */,
 				2D13A3DC17E16A0600C89D58 /* AppDelegate.h */,
 				2D13A3DD17E16A0600C89D58 /* AppDelegate.m */,
 				2D13A3D417E16A0600C89D58 /* Supporting Files */,
@@ -97,6 +101,15 @@
 				2D13A3E317E16A0600C89D58 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D7E7E2C17E16BF70047F17A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2D7E7E2D17E16BF70047F17A /* ExtendNSLogFunctionality.h */,
+				2D7E7E2E17E16BF70047F17A /* ExtendNSLogFunctionality.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +179,7 @@
 			files = (
 				2D13A3DA17E16A0600C89D58 /* main.m in Sources */,
 				2D13A3DE17E16A0600C89D58 /* AppDelegate.m in Sources */,
+				2D7E7E2F17E16BF70047F17A /* ExtendNSLogFunctionality.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +296,7 @@
 				2D13A3E917E16A0600C89D58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
