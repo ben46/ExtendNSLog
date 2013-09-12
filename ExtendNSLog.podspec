@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
 	}
 	s.ios.deployment_target = '5.0'
 	s.summary = 'ExtendNSLog'
+	s.license      = { :type => 'MIT' }
 	s.ios.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/../../ExtendNSLog/**' }
 	s.homepage = 'http://github.com/ben46/ExtendNSLog'
 	s.source = {
