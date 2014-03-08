@@ -35,3 +35,7 @@ Now add the ExtendNSLogFunctionality.h include to the prefix header file Prefix.
 you should see something like this:
 
 	(­[AppDelegate application:didFinishLaunchingWithOptions:]) (AppDelegate.m:21) Value of result : 20
+
+##2014-03-08 Ver 1.0.2 Update
+
+	NSLogPoint(), NSLogRect(), NSLogSize()
